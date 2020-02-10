@@ -1,0 +1,109 @@
+*,
+*::before,
+*::after{box-sizing: border-box;}
+
+
+
+html{font-size: 10px;}
+body{
+    font-size: 1.6rem;
+    line-height: 1.5;
+    margin: 0;
+}
+
+body::before{
+    content:'';
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-color: darkblue;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://cdn.pixabay.com/photo/2018/08/04/21/21/feedback-3584509_960_720.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    
+
+}
+#container{
+   margin:30px auto;
+   /* background: rgba(11, 11, 75, 0.5); */
+   border-radius: 5px;
+   border: 2px solid white;
+    padding: 20px 10px;
+   
+}
+#head{
+    text-align: center;
+    color:white;
+   
+}
+#survey-form{
+    font-size: 2rem;
+    color: white;
+    font-weight: 100;
+    padding: 30px 20px;
+    border-radius: 5px;
+    margin: 0 auto;
+    /* text-align: center; */
+      
+
+}
+.form-group{
+    display: block;
+    margin: 0 auto;
+    
+}
+.form-control{
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    height: 30px;
+
+    
+    
+    
+}
+hr{width: 70%;}
+::placeholder{
+    font-size: 1.5rem;
+    padding-left: 10px;
+    
+}
+.inpute-radio{
+    display:inline-block;
+    
+}
+label{
+    display: block;
+
+}
+
+.inpute-textarea{
+    border-radius: 5px;
+    width: 100%;
+    
+}
+#submit{
+    color: white;
+    background-color:#17914a ;
+    margin: 0;
+    padding: 0;
+    height: 40px;
+    border: 1px solid #cccccc;
+}
+#textarea{
+    padding-bottom: 15px;
+   
+}
+
+h1,
+h3{font-weight: 100;}
+
+#name-level,
+#email-level,
+#number-level{padding: 10px 0 10px 0;}
+span{font-size: 1.6rem;}
